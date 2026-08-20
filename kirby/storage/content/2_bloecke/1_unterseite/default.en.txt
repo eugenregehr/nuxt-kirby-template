@@ -1,0 +1,13 @@
+Title: Subpage
+
+----
+
+Slug: subpage
+
+----
+
+Blocks: [{"content":{"level":"h1","text":"A subpage"},"id":"d1d2d3d4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>This page sits under <em>Blocks</em> in the Panel and is therefore served at <code>/bloecke/unterseite</code>. Nothing was written for that extra URL level: the catch-all route hands the full URI to Kirby.</p><p>The English slug is a different one — <code>/en/blocks/subpage</code>. Slugs are translatable per language; the language switcher, the hreflang tags and the sitemap follow automatically.</p>"},"id":"d1d2d3d4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"text":"A new page is one click in the Panel — no branch, no deployment.","citation":"The template"},"id":"d1d2d3d4-0003-4000-8000-000000000003","isHidden":false,"type":"quote"},{"content":{"level":"h2","heading":"Back to the overview","text":"","buttonlabel":"All blocks","link":"page://blockspg0aaaa001"},"id":"d1d2d3d4-0004-4000-8000-000000000004","isHidden":false,"type":"cta"}]
+
+----
+
+Seo-description: A subpage — proof that nested URLs work without any routing code.

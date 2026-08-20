@@ -1,0 +1,11 @@
+type: files
+label:
+  en: Images
+  de: Bilder
+templates:
+  - image
+  - blocks/image
+sortBy: filename desc
+empty:
+  en: No images yet
+  de: Noch keine Bilder

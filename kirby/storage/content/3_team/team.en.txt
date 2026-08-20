@@ -1,0 +1,31 @@
+Title: Team
+
+----
+
+Headline: Our team
+
+----
+
+Intro: This page uses the "team" page type from the _pages/team/ folder — fixed Panel fields instead of a block list, rendered by a component of its own. The catch-all route finds it through the Kirby template, with no dedicated route.
+
+----
+
+Members:
+
+-
+  name: Alex Muster
+  role: Management
+-
+  name: Sam Beispiel
+  role: Development
+-
+  name: Kim Vorlage
+  role: Design
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"Fixed fields and page builder at once"},"id":"b1c2d3e4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>Everything above comes from the fixed fields of the page type. This section comes from the <em>Blocks</em> tab of the same page — a page type can have both.</p>"},"id":"b1c2d3e4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"level":"h2","heading":"Open positions","text":"Editors add sections here without the page type being touched.","buttonlabel":"Send an application","link":"page://blockspg0aaaa001"},"id":"b1c2d3e4-0003-4000-8000-000000000003","isHidden":false,"type":"cta"}]
+
+----
+
+Seo-description: An example page type: fixed Panel fields combined with a page-builder tab.

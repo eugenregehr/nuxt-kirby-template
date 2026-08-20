@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+/* Die Block- und Seitentyp-Pakete liegen außerhalb der Nuxt-App, wo Tailwinds
+   automatische Source-Erkennung nicht hinreicht. Ohne das landen ihre
+   Utilities — etwa das `aspect-video` des Video-Blocks — nie im
+   Produktions-CSS. */
+@source '../../../../_blocks';
+@source '../../../../_pages';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Rich text coming from Kirby (text/quote blocks) */
+.rich-text {
+  p {
+    margin-bottom: --spacing(4);
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  ul,
+  ol {
+    margin-bottom: --spacing(4);
+    padding-left: --spacing(6);
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+}

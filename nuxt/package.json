@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-frontend",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test:types": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/image": "^2.1.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "ufo": "^1.6.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.3.0",
+    "@nuxt/kit": "^4.5.2",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@vueuse/nuxt": "^14.4.0",
+    "eslint": "^10.8.1",
+    "eslint-plugin-format": "^2.0.1",
+    "kirby-types": "^1.4.0",
+    "nuxt": "^4.5.2",
+    "nuxt-kirby": "^4.1.0",
+    "sharp": "^0.35.3",
+    "sitemap": "^9.0.1",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.10"
+  },
+  "pnpm": {
+    "overrides": {
+      "brace-expansion@>=4.0.0 <5.0.9": ">=5.0.9",
+      "esbuild@<0.28.1": ">=0.28.1",
+      "nanoid@<3.3.18": ">=3.3.18",
+      "postcss@<8.5.23": ">=8.5.23"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+title:
+  en: Page
+  de: Seite
+
+icon: page
+
+options:
+  preview: "{{ page.frontendUrl }}"
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    columns:
+      - width: 2/3
+        sections:
+          blocks: sections/blocks
+
+      - width: 1/3
+        sections:
+          cover: sections/cover
+          pages: sections/pages
+          images: sections/images
+
+  # Every page gets its own SEO tab. Empty fields fall back to the
+  # site-wide SEO settings (site.yml → SEO tab) in the frontend.
+  seo: tabs/seo

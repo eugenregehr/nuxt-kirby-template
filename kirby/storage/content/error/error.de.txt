@@ -1,0 +1,13 @@
+Title: Fehler
+
+----
+
+Headline: Seite nicht gefunden
+
+----
+
+Text: Die angeforderte Seite existiert nicht. Der Text dieser Seite wird im Panel gepflegt.
+
+----
+
+Uuid: errorpg0aaaa0001

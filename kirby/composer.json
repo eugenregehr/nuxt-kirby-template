@@ -1,0 +1,28 @@
+{
+    "name": "template/kirby-backend",
+    "description": "Headless Kirby CMS backend for the Nuxt frontend",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.3",
+        "getkirby/cms": "^5",
+        "getkirby/kql": "^3",
+        "johannschopplich/kirby-headless": "^8",
+        "vlucas/phpdotenv": "^5"
+    },
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php -S localhost:8000 -t public vendor/getkirby/cms/router.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "extra": {
+        "kirby-cms-path": false
+    }
+}

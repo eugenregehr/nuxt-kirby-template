@@ -1,0 +1,27 @@
+Title: Startseite
+
+----
+
+Blocks: [{"content":{"level":"h1","headline":"Kirby pflegt die Inhalte. Nuxt rendert sie.","text":"Ein headless Kirby CMS und ein Nuxt-4-Frontend, verbunden über KQL — mit Live-Vorschau, zwei Sprachen und Blöcken, die als Paket zusammenbleiben.","buttonlabel":"Alle Blöcke ansehen","link":"/bloecke"},"id":"a1b2c3d4-0001-4000-8000-000000000001","isHidden":false,"type":"hero"},{"content":{"level":"h2","text":"Warum dieses Setup?"},"id":"a1b2c3d4-0002-4000-8000-000000000002","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><strong>Ein Ordner = ein Block.</strong> Blueprint, Resolver, Vue-Komponente und Types liegen beieinander — keine Liste, die synchron gehalten werden muss.</li><li><strong>Redakteure bleiben unabhängig.</strong> Neue Seiten entstehen im Panel, ohne dass jemand das Frontend anfasst oder deployed.</li><li><strong>Typsicher von Kirby bis ins Template.</strong> Jeder Block bringt seinen TypeScript-Typ mit; ein falscher Feldname fällt beim Build auf.</li><li><strong>Live-Vorschau, die wirklich funktioniert.</strong> Unveröffentlichte Änderungen und Entwürfe im echten Frontend, token-gesichert.</li><li><strong>Zwei Sprachen ab Werk.</strong> Kirby-Multilanguage und Nuxt-i18n sind aufeinander abgestimmt, inklusive hreflang und Sitemap.</li></ul>"},"id":"a1b2c3d4-0003-4000-8000-000000000003","isHidden":false,"type":"list"},{"content":{},"id":"a1b2c3d4-0004-4000-8000-000000000004","isHidden":false,"type":"line"},{"content":{"level":"h2","text":"Wie eine Seite entsteht"},"id":"a1b2c3d4-0005-4000-8000-000000000005","isHidden":false,"type":"heading"},{"content":{"text":"<p>Die Nuxt-Seite fragt Kirby per KQL nach der Seite; Kirby löst Blöcke, Bilder und Links zu fertigem JSON auf. <em>KirbyPageBody</em> schaut sich das Kirby-Template an und rendert entweder die Komponente des Seitentyps oder die Blockliste. Neue Inhalte brauchen deshalb kein Deployment.</p>"},"id":"a1b2c3d4-0006-4000-8000-000000000006","isHidden":false,"type":"text"},{"content":{"level":"h2","heading":"Häufige Fragen","items":[{"question":"Wie füge ich einen neuen Block-Typ hinzu?","answer":"Einen Ordner unter `_blocks/` anlegen — mit `block.yml` (Panel-Formular), `types.ts` und einer Vue-Komponente. Kirby und Nuxt finden ihn von selbst; es gibt keine Registry, in die er eingetragen werden müsste."},{"question":"Brauche ich für eine neue Seite Frontend-Code?","answer":"Nein. Jede Seite mit dem `default`-Blueprint rendert die Catch-all-Route. Eigenen Code braucht nur ein eigener Seitentyp — und der ist ein Ordner unter `_pages/`, siehe die Team-Seite."},{"question":"Wie funktioniert die Live-Vorschau?","answer":"Der Preview-Button im Panel öffnet das Nuxt-Frontend mit einem signierten Token. Das Frontend schickt ihn als Header an Kirby zurück und bekommt die unveröffentlichte Version — auch für Entwürfe."},{"question":"Kann der API-Token im Browser landen?","answer":"Nein. Jede KQL-Anfrage läuft über einen Server-Proxy in Nuxt. Der Bearer-Token existiert nur in der Server-Runtime, nie im Client-Bundle."}]},"id":"a1b2c3d4-0007-4000-8000-000000000007","isHidden":false,"type":"faq"},{"content":{"level":"h2","heading":"Eigener Seitentyp gefällig?","text":"Die Team-Seite kombiniert feste Panel-Felder mit einem Page-Builder-Tab.","buttonlabel":"Zur Team-Seite","link":"/team"},"id":"a1b2c3d4-0008-4000-8000-000000000008","isHidden":false,"type":"cta"}]
+
+----
+
+Cover:
+
+- file://coverfile00001aa
+
+----
+
+Seo-title: Headless Kirby + Nuxt 4 Starter-Template
+
+----
+
+Seo-description: Ein Starter-Template, das ein headless Kirby CMS mit einem Nuxt-4-Frontend verbindet.
+
+----
+
+Og-image: []
+
+----
+
+Uuid: homepg0aaaa00001

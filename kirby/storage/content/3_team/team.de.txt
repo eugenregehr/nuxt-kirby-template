@@ -1,0 +1,35 @@
+Title: Team
+
+----
+
+Headline: Unser Team
+
+----
+
+Intro: Diese Seite nutzt den Seitentyp „team" aus dem Ordner _pages/team/ — feste Panel-Felder statt einer Blockliste, gerendert von einer eigenen Vue-Komponente. Die Catch-all-Route findet sie über das Kirby-Template, ohne eigene Route.
+
+----
+
+Members:
+
+-
+  name: Alex Muster
+  role: Geschäftsführung
+-
+  name: Sam Beispiel
+  role: Entwicklung
+-
+  name: Kim Vorlage
+  role: Design
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"Feste Felder und Page-Builder zugleich"},"id":"b1c2d3e4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>Alles oberhalb kommt aus festen Feldern des Seitentyps. Dieser Abschnitt stammt aus dem <em>Blocks</em>-Tab derselben Seite — ein Seitentyp kann beides haben.</p>"},"id":"b1c2d3e4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"level":"h2","heading":"Offene Stellen","text":"Redakteure ergänzen hier Abschnitte, ohne dass der Seitentyp angefasst wird.","buttonlabel":"Initiativ bewerben","link":"page://blockspg0aaaa001"},"id":"b1c2d3e4-0003-4000-8000-000000000003","isHidden":false,"type":"cta"}]
+
+----
+
+Seo-description: Beispiel für einen eigenen Seitentyp: feste Panel-Felder kombiniert mit einem Page-Builder-Tab.
+
+----
+
+Uuid: teampg0aaaa00001

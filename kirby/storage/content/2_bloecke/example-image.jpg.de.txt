@@ -1,0 +1,9 @@
+Template: blocks/image
+
+----
+
+Alt: Platzhalterbild mit Raster
+
+----
+
+Uuid: blockimgfile001a

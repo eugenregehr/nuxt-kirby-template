@@ -1,0 +1,8 @@
+type: pages
+label:
+  en: Subpages
+  de: Unterseiten
+image:
+  query: page.cover.toFile
+  cover: true
+  back: white

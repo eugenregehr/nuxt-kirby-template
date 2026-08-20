@@ -1,0 +1,50 @@
+baukasten:
+  category: sections
+  order: 30
+
+name:
+  en: Call to Action
+  de: Call-to-Action
+icon: megaphone
+preview: fields
+wysiwyg: true
+fields:
+  level:
+    label:
+      en: Heading Level
+      de: Überschriftebene
+    type: select
+    default: h2
+    width: 1/4
+    options:
+      h2: H2
+      h3: H3
+      none:
+        en: None
+        de: Keine
+  heading:
+    label:
+      en: Heading
+      de: Überschrift
+    type: text
+    width: 3/4
+  text:
+    label: Text
+    type: textarea
+    buttons: false
+  buttonlabel:
+    label:
+      en: Button label
+      de: Button-Text
+    type: text
+    width: 1/2
+  link:
+    label:
+      en: Button link
+      de: Button-Link
+    type: link
+    options:
+      - page
+      - url
+      - email
+    width: 1/2

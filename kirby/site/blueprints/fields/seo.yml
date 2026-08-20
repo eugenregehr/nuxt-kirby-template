@@ -1,0 +1,34 @@
+type: group
+fields:
+  seo_title:
+    type: text
+    label:
+      en: Meta Title
+      de: Meta-Titel
+    help:
+      en: "Recommended: 50–60 characters"
+      de: "Empfohlen: 50–60 Zeichen"
+    counter: true
+    maxlength: 60
+    width: 1/1
+  seo_description:
+    type: text
+    label:
+      en: Meta Description
+      de: Meta-Beschreibung
+    help:
+      en: "Recommended: 150–160 characters"
+      de: "Empfohlen: 150–160 Zeichen"
+    counter: true
+    maxlength: 160
+    width: 1/1
+  og_image:
+    type: files
+    label:
+      en: Social Media Image
+      de: Social-Media-Bild
+    help:
+      en: "Recommended: 1200×630 px"
+      de: "Empfohlen: 1200×630 px"
+    max: 1
+    width: 1/1

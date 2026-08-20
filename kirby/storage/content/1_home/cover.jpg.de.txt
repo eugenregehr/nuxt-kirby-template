@@ -1,0 +1,13 @@
+Template: image
+
+----
+
+Alt: Platzhalter-Vorschaubild der Startseite
+
+----
+
+Caption: Platzhalterbild — ersetze es im Panel
+
+----
+
+Uuid: coverfile00001aa

@@ -1,0 +1,13 @@
+Title: Draft
+
+----
+
+Slug: draft
+
+----
+
+Blocks: [{"content":{"level":"h1","text":"An unpublished draft"},"id":"e1e2e3e4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>This page is a draft: publicly the frontend answers 404, because the query uses <code>site.find()</code> and drafts stay invisible to it.</p><p>The <strong>preview</strong> button in the Panel still shows it in the real frontend — Kirby appends a signed token to the URL, which the frontend sends back as a header.</p>"},"id":"e1e2e3e4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"text":"Publish this page in the Panel and it appears in the navigation right away.","citation":"The template"},"id":"e1e2e3e4-0003-4000-8000-000000000003","isHidden":false,"type":"quote"}]
+
+----
+
+Seo-description: A draft for trying out the preview button in the Panel.

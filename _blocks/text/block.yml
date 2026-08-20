@@ -1,0 +1,10 @@
+baukasten:
+  category: text
+  order: 20
+  builtin: true
+
+# Label and icon for the block palette — the fields come from Kirby's own blueprint
+name:
+  en: Text
+  de: Text
+icon: text

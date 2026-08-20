@@ -1,0 +1,10 @@
+baukasten:
+  category: text
+  order: 50
+  builtin: true
+
+# Label and icon for the block palette — the fields come from Kirby's own blueprint
+name:
+  en: Line
+  de: Linie
+icon: dashes

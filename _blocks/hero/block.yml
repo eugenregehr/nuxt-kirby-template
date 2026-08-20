@@ -1,0 +1,51 @@
+# Baukasten metadata — stripped before the rest is registered as a Kirby blueprint
+baukasten:
+  category: sections
+  order: 10
+
+name:
+  en: Hero
+  de: Hero
+icon: home
+preview: fields
+wysiwyg: true
+fields:
+  level:
+    label:
+      en: Heading Level
+      de: Überschriftebene
+    type: select
+    default: h1
+    width: 1/4
+    help:
+      en: Use H1 only once per page — for the topmost hero.
+      de: H1 nur einmal pro Seite verwenden — für den obersten Hero.
+    options:
+      h1: H1
+      h2: H2
+  headline:
+    label:
+      en: Headline
+      de: Überschrift
+    type: text
+    required: true
+    width: 3/4
+  text:
+    label: Text
+    type: textarea
+    buttons: false
+  buttonlabel:
+    label:
+      en: Button label
+      de: Button-Text
+    type: text
+    width: 1/2
+  link:
+    label:
+      en: Button link
+      de: Button-Link
+    type: link
+    options:
+      - page
+      - url
+    width: 1/2

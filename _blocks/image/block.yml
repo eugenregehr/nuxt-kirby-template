@@ -1,0 +1,10 @@
+baukasten:
+  category: media
+  order: 10
+  builtin: true
+
+# Label and icon for the block palette — the fields come from Kirby's own blueprint
+name:
+  en: Image
+  de: Bild
+icon: image

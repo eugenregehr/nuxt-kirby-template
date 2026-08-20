@@ -1,0 +1,9 @@
+Title: Error
+
+----
+
+Headline: Page not found
+
+----
+
+Text: The requested page does not exist. The text of this page is managed in the Panel.

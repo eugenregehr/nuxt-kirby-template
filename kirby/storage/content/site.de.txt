@@ -1,0 +1,28 @@
+Title: Mein Projekt
+
+----
+
+Redirects:
+
+-
+  from: /alte-startseite
+  to: /
+  code: "301"
+
+----
+
+Seo-title: Mein Projekt — Nuxt + Kirby
+
+----
+
+Seo-description: Starter-Template für headless Kirby CMS mit einem Nuxt-4-Frontend.
+
+----
+
+Og-image:
+
+- file://ogimgfile000001a
+
+----
+
+Uuid: sitetpl0aaaa0001

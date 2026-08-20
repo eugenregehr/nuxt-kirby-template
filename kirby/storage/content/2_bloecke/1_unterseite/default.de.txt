@@ -1,0 +1,21 @@
+Title: Unterseite
+
+----
+
+Blocks: [{"content":{"level":"h1","text":"Eine Unterseite"},"id":"d1d2d3d4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>Diese Seite liegt im Panel unter <em>Blöcke</em> und ist deshalb unter <code>/bloecke/unterseite</code> erreichbar. Für die zusätzliche URL-Ebene wurde nichts programmiert: die Catch-all-Route reicht die komplette URI an Kirby weiter.</p><p>Der englische Slug ist ein anderer — <code>/en/blocks/subpage</code>. Slugs sind pro Sprache übersetzbar; Sprachumschalter, hreflang-Tags und Sitemap folgen automatisch.</p>"},"id":"d1d2d3d4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"text":"Eine neue Seite ist ein Klick im Panel — kein Branch, kein Deployment.","citation":"Das Template"},"id":"d1d2d3d4-0003-4000-8000-000000000003","isHidden":false,"type":"quote"},{"content":{"level":"h2","heading":"Zurück zur Übersicht","text":"","buttonlabel":"Alle Blöcke","link":"page://blockspg0aaaa001"},"id":"d1d2d3d4-0004-4000-8000-000000000004","isHidden":false,"type":"cta"}]
+
+----
+
+Cover: []
+
+----
+
+Seo-description: Eine Unterseite — zeigt, dass verschachtelte URLs ohne Routing-Code funktionieren.
+
+----
+
+Og-image: []
+
+----
+
+Uuid: subpg0aaaaa00001

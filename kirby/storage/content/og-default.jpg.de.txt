@@ -1,0 +1,9 @@
+Template: image
+
+----
+
+Alt: Platzhalterbild des Templates
+
+----
+
+Uuid: ogimgfile000001a

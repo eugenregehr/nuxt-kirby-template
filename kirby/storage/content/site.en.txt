@@ -1,0 +1,9 @@
+Title: My Project
+
+----
+
+Seo-title: My Project — Nuxt + Kirby
+
+----
+
+Seo-description: Starter template for a headless Kirby CMS with a Nuxt 4 frontend.

@@ -1,0 +1,25 @@
+.DS_Store
+.env
+vendor
+backups
+
+# Kirby
+.lock
+/public/media/*
+!/public/media/index.html
+/storage/accounts/*
+!/storage/accounts/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/site/config/.license
+
+# Composer-installed plugins (kql, kirby-headless) — own plugins stay tracked
+/site/plugins/kql
+/site/plugins/kirby-headless
+
+# Personal deploy scripts (contain server credentials) — never committed
+/scripts

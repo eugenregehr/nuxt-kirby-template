@@ -1,0 +1,21 @@
+Title: Entwurf
+
+----
+
+Blocks: [{"content":{"level":"h1","text":"Ein unveröffentlichter Entwurf"},"id":"e1e2e3e4-0001-4000-8000-000000000001","isHidden":false,"type":"heading"},{"content":{"text":"<p>Diese Seite ist ein Entwurf: öffentlich liefert das Frontend eine 404, weil die Query mit <code>site.find()</code> arbeitet und Entwürfe damit unsichtbar bleiben.</p><p>Über den <strong>Vorschau</strong>-Button im Panel ist sie trotzdem im echten Frontend zu sehen — Kirby hängt einen signierten Token an die URL, den das Frontend als Header zurückschickt.</p>"},"id":"e1e2e3e4-0002-4000-8000-000000000002","isHidden":false,"type":"text"},{"content":{"text":"Veröffentliche diese Seite im Panel, und sie erscheint sofort in der Navigation.","citation":"Das Template"},"id":"e1e2e3e4-0003-4000-8000-000000000003","isHidden":false,"type":"quote"}]
+
+----
+
+Cover: []
+
+----
+
+Seo-description: Ein Entwurf zum Ausprobieren des Vorschau-Buttons im Panel.
+
+----
+
+Og-image: []
+
+----
+
+Uuid: draftpg0aaaa0001

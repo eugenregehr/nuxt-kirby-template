@@ -1,0 +1,22 @@
+title:
+  en: Error Page
+  de: Fehlerseite
+
+icon: alert
+
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false
+  delete: false
+
+fields:
+  headline:
+    label:
+      en: Headline
+      de: Überschrift
+    type: text
+  text:
+    label: Text
+    type: textarea
+    buttons: false

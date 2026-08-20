@@ -1,0 +1,66 @@
+title: Team
+
+icon: users
+
+options:
+  preview: "{{ page.frontendUrl }}"
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    columns:
+      - width: 2/3
+        fields:
+          headline:
+            label:
+              en: Headline
+              de: Überschrift
+            type: text
+            required: true
+          intro:
+            label:
+              en: Intro
+              de: Einleitung
+            type: textarea
+            buttons: false
+          members:
+            label:
+              en: Team members
+              de: Teammitglieder
+            type: structure
+            columns:
+              name:
+                width: 1/2
+              role:
+                width: 1/2
+            fields:
+              name:
+                label: Name
+                type: text
+                required: true
+              role:
+                label:
+                  en: Role
+                  de: Rolle
+                type: text
+
+      - width: 1/3
+        sections:
+          cover: sections/cover
+          images: sections/images
+
+  # Ein Seitentyp darf feste Felder *und* den Page-Builder haben: `fields/blocks`
+  # wird vom Baukasten-Plugin aus blocks/ zusammengebaut, dieser Tab bekommt
+  # also automatisch jeden neuen Block-Typ.
+  blocks:
+    label:
+      en: Sections
+      de: Abschnitte
+    icon: layers
+    sections:
+      blocks: sections/blocks
+
+  seo: tabs/seo

@@ -1,0 +1,17 @@
+# Palette groups for the Kirby page builder and the Baukasten editor.
+# A block joins a group via `baukasten.category` in its own block.yml.
+text:
+  order: 10
+  label:
+    en: Text
+    de: Text
+media:
+  order: 20
+  label:
+    en: Media
+    de: Medien
+sections:
+  order: 30
+  label:
+    en: Sections
+    de: Abschnitte
