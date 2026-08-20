@@ -9,7 +9,7 @@ The idea behind it: **a block or a page type is one folder.** Its Panel form, it
 ├── _pages/    → page-type packages: one folder = one template (blueprint + query + Vue)
 ├── kirby/     → headless CMS  (Kirby 5 + KQL + kirby-headless)
 ├── nuxt/      → frontend      (Nuxt 4 + nuxt-kirby + Tailwind 4 + i18n)
-└── CLAUDE.md  → architecture guide and step-by-step recipes (German, also for AI agents)
+└── CLAUDE.md  → architecture guide and step-by-step recipes (also read by AI agents)
 ```
 
 ## Features
@@ -131,7 +131,7 @@ Create `_blocks/testimonial/` containing:
 
 Nothing else. A page type works the same way under `_pages/<type>/` with `page.yml`, `query.ts` and a component.
 
-Full recipes, conventions and the reasoning behind them are in **[CLAUDE.md](CLAUDE.md)** (German).
+Full recipes, conventions and the reasoning behind them are in **[CLAUDE.md](CLAUDE.md)**.
 
 ## Deployment
 
